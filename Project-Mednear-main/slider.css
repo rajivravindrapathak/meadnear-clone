@@ -1,0 +1,34 @@
+#slider-container {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+#slider-img {
+  width: 90%;
+  margin: auto;
+}
+#slider-img:hover{
+  cursor: pointer;
+}
+.arro-small {
+  border: 1px solid black;
+  width: 2%;
+  height: 44px;
+  text-align: center;
+  margin: auto;
+  margin-top: 12%;
+  border-radius: 4px;
+}
+.arro-small:hover{
+  background-color: rgb(59, 59, 59);
+  color: white;
+}
+.slide-left {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  /* margin-top: 50%; */
+  cursor: pointer;
+  font-size: 30px;
+}
